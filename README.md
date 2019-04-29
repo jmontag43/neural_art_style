@@ -36,4 +36,4 @@ $ source myenv/bin/activate
 
 It is generally recommended to run this project with the GPU version; it takes me about 50 seconds to run 1000 iterations on my 2080ti and 205 seconds for **100** iterations on my CPU. However, the prebuilt TensorFlow GPU packages in PyPI often don't keep up to date with the CUDA packages (CUDA 10.1 came out 2 days after the prebuilt TensorFlow 1.13 used 10.0, making it almost instantly out of date).
 
-As a result, if the package in PyPI doesn't work, it's up to you if you'd like to run an outdated CUDA, a TensorFlow package managed by somebody who keeps up to date with your package manager, or build your own TensorFlow from source. The official TensorFlow GPU installation guide can be found [here](https://www.tensorflow.org/install/gpu).
+As a result, if the package in PyPI doesn't work, it's up to you if you'd like to run a prebuilt Docker image (Linux only), an outdated CUDA, a TensorFlow package managed by somebody who keeps up to date with your package manager, or build your own TensorFlow from source. The official TensorFlow GPU installation guide can be found [here](https://www.tensorflow.org/install/gpu).
